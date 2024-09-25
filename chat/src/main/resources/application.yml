@@ -1,15 +1,15 @@
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:tcp://localhost/~/test;
-    username: sa
-    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: ""
+    password: ""
 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
-        #show_sql: true   //운영할 때는 system.out로 sql를 보여주기때문에 쓰지 말아야한다
-        format_sql: true  //sql 이쁘게 보이게
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        format_sql: true
         default_batch_fetch_size: 100
