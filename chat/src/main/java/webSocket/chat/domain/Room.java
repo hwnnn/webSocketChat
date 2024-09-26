@@ -1,8 +1,6 @@
 package webSocket.chat.domain;
 
 import lombok.*;
-import org.springframework.web.socket.WebSocketSession;
-import webSocket.chat.dto.ChatMessage;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

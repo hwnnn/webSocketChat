@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import webSocket.chat.domain.Chat;
 import webSocket.chat.domain.Room;
-import webSocket.chat.dto.ChatMessage;
 import webSocket.chat.service.ChatService;
 
 import java.util.List;

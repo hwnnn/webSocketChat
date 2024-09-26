@@ -1,6 +1,5 @@
 package webSocket.chat.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import webSocket.chat.domain.Chat;
